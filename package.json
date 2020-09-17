@@ -2,10 +2,18 @@
   "name": "heavy_hour",
   "version": "1.0.0",
   "description": "Trying to capture live radio broadcast with a NodeJS app.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sit79/heavyHour"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "SIT",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "icy": "^2.1.0",
+    "speaker": "^0.5.2"
+  }
 }
